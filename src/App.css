@@ -1,0 +1,233 @@
+@media screen and (max-width: 400px) {
+  #features {
+    padding: 20px;
+    width: 111%;
+  }
+
+  #about,
+  #services,
+  #testimonials,
+  #team,
+  #contact,
+  #footer {
+    width: 111%;
+  }
+
+  #portfolio {
+    width: 110%;
+  }
+}
+
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: lightgreen;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.college-table {
+  padding: 10px;
+  border: 2px solid #f9d5c0;
+  margin-bottom: 20px;
+}
+
+.table-head {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f9d5c0;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.container-fluid {
+  max-width: 1400px;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+  position: relative;
+  bottom: calc(50% - 20px);
+  background: rgb(253, 253, 253) none repeat scroll 0 0 !important;
+  border-radius: 30px !important;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.2);
+  color: #000 !important;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 !important;
+  text-align: center;
+  text-transform: uppercase;
+  width: 40px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.owl-theme .owl-nav [class*="owl-"] i {
+  font-size: 13px !important;
+  font-weight: normal !important;
+  color: #000 !important;
+}
+
+.owl-theme .owl-nav .owl-prev {
+  margin-left: -16px !important;
+  color: #000 !important;
+}
+
+.owl-theme .owl-nav .owl-next {
+  right: 0px;
+  margin-right: -16px !important;
+  color: #000 !important;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+.owl-carousel-four .item {
+  padding: 6px 7px;
+}
+
+.osahan-category-item {
+  background: #fff;
+  margin: 5px 2px 2px 2px;
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  padding: 2px;
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+  border: 1px solid #fff;
+  height: 90px;
+}
+
+.osahan-category-item:hover {
+  border: none;
+}
+
+.osahan-category-item h4 {
+  margin: 0px;
+  color: black;
+}
+
+.osahan-category-item p {
+  margin: 0px;
+  font-size: 12px;
+}
+
+.homepage-ad .item {
+  padding: 0 2px;
+}
+
+.img-fluid {
+  border: 1px solid #dcdcdc;
+  float: left;
+  height: 59px;
+  padding: 3px;
+  width: 59px;
+}
+
+.osahan-category-item img {
+  width: 80px !important;
+  height: 75px;
+  object-fit: cover;
+  display: inline-block !important;
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+  margin: 2px 0 8px 0;
+}
+
+#root {
+  font-size: 1.7rem;
+}
+
+.owl-carousel {
+  z-index: 0 !important;
+}
+
+.owl-nav {
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-8rem);
+}
+
+.owl-nav>* {
+  border-radius: 0 !important;
+}
+
+.scroll-none {
+  -ms-overflow-style: none;
+  /* for Internet Explorer, Edge */
+  scrollbar-width: none;
+  /* for Firefox */
+  overflow-y: scroll;
+}
+
+.scroll-none::-webkit-scrollbar {
+  display: none;
+  /* for Chrome, Safari, and Opera */
+}
+
+.truncate {
+  text-overflow: ellipsis ;
+
+  /* Needed to make it work */
+  overflow: hidden ;
+  white-space: nowrap;
+}
+
+.bottom-left-o{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.container-o{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.feature-news-img{
+  filter: brightness(.5);
+}
+
+
